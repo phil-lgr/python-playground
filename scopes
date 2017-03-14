@@ -1,0 +1,24 @@
+# outer scope
+name = 'global'
+
+
+def greet():
+    # global
+    global name
+
+    # inner scope
+    name = 'inner'
+
+    print globals()
+    print locals()
+
+    if(False):
+        name = 'inner in if statement'
+
+    def hello():
+        print 'hello ' + name
+
+    hello()
+
+
+greet()

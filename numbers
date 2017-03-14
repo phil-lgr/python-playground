@@ -1,0 +1,14 @@
+from __future__ import division
+
+# classic division
+print 3/2
+# casting to float
+print 3/2.0
+# casting to float
+print float(3)
+# power
+print 4**5
+# root of
+print 4**0.5
+
+

@@ -1,0 +1,25 @@
+l = []
+for letter in 'hello':
+    l.append(letter)
+
+print l
+
+l = [i for i in 'hello']
+print l
+
+for a in l:
+    print a
+
+lst1 = [x ** 2 for x in range(0, 11)]
+print lst1
+
+lst = [number for number in range(11) if number % 2 == 0]
+print lst
+
+celcius = [0, 10, 20.3, 34.5]
+fahrenheit = [t * (9/5.0) + 32 for t in celcius]
+print fahrenheit
+
+# nested
+list2 = [x**2 for x in [x**2 for x in range(11)]]
+print list2

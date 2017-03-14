@@ -1,0 +1,18 @@
+
+# statement example
+a = 3
+b = 2
+
+if a > b:
+    print 'a is bigger'
+
+if a > b:
+    if a == 3:
+        print 'a is bigger and is equal to b'
+
+if 1 == 2:
+    print 'not'
+elif 1 == 2:
+    print 'not equal'
+else:
+    print 'oké'
